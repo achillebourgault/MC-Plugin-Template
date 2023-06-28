@@ -95,12 +95,12 @@ public class MyListener implements Listener {
 
 Create an ItemStack with a name and a lore
 ```java
-ItemStack item = ItemsUtils.createItem(Material.DIAMOND, 1, "My Item", Arrays.asList("My Lore"));
+ItemStack item = Items.createItem(Material.DIAMOND, 1, "My Item", Arrays.asList("My Lore"));
 ```
 
 Create an Skull item with a name and a lore
 ```java
-ItemStack item = ItemsUtils.createSkull(Material.DIAMOND, 1, "My Item", Arrays.asList("My Lore"), "Notch");
+ItemStack item = Items.createSkull(Material.DIAMOND, 1, "My Item", Arrays.asList("My Lore"), "Notch");
 ```
 
 ## Listeners
